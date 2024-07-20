@@ -8,7 +8,8 @@ import { getLinkTarget } from '@/utils/link'
 const navLinks = siteConfig.header.navLinks || []
 
 const socialLinks = computed(() => {
-  return siteConfig.socialLinks.filter((link: Record<string, any>) => {
+  return siteConfig.socialLinks
+  .filter((link: Record<string, any>) => {
     if (link.header && typeof link.header === 'boolean') {
       return link
     }
@@ -101,7 +102,6 @@ function toggleNavDrawer() {
         :target="getLinkTarget(link.href)" :href="link.href"
       />
 
-      <a nav-link target="_blank" href="/rss.xml" i-ri-rss-line aria-label="RSS" />
       <ThemeToggle />
     </div>
   </header>

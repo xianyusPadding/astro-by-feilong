@@ -1,45 +1,30 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
+  author: 'Feilong Xie',
+  title: 'Feilong Xie',
+  subtitle: 'feilong.xie home, supports Vue and UnoCSS.',
   description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: '841583918@qq.com',
   socialLinks: [
     {
       text: 'GitHub',
-      href: '',
+      href: 'https://github.com/xianyusPadding',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
     },
     {
-      text: 'Twitter',
-      href: '',
-      icon: 'i-simple-icons-x',
-      header: 'i-ri-twitter-x-line',
-    },
-    {
-      text: 'Linkedin',
-      href: '',
-      icon: 'i-simple-icons-linkedin',
-    },
-    {
-      text: 'Instagram',
-      href: '',
-      icon: 'i-simple-icons-instagram',
-    },
-    {
-      text: 'Youtube',
-      href: '',
-      icon: 'i-simple-icons-youtube',
+      text: '掘金',
+      href: 'https://juejin.cn/user/2946346890836206',
+      icon: 'i-simple-icons:juejin',
+      header: 'i-simple-icons:juejin',
     },
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
+      src: '/avatar.jpg',
       alt: 'Logo Image',
     },
     navLinks: [
@@ -93,7 +78,7 @@ export const siteConfig = {
       },
       {
         text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
+        href: 'https://github.com/xianyusPadding/astro-by-feilong',
       },
     ],
   },

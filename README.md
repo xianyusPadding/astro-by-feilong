@@ -1,4 +1,4 @@
-# Vitesse theme for Astro
+# feilong.xie home
 
 A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.
 
@@ -102,4 +102,4 @@ Like this:
 
 ## License
 
-[MIT License](./LICENSE) © 2024-PRESENT [Kevin Wong](https://github.com/kevinwong865)
+[MIT License](./LICENSE) © 2024-PRESENT [Feilong Xie](https://github.com/kevinwong865)

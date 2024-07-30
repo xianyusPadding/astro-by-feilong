@@ -29,19 +29,15 @@ export const siteConfig = {
     },
     navLinks: [
       {
-        text: 'Blog',
+        text: '博客',
         href: '/blog',
       },
       {
-        text: 'Notes',
+        text: '笔记',
         href: '/blog/notes',
       },
       {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
-      {
-        text: 'Projects',
+        text: '项目',
         href: '/projects',
       },
     ],
@@ -49,15 +45,15 @@ export const siteConfig = {
   page: {
     blogLinks: [
       {
-        text: 'Blog',
+        text: '博客',
         href: '/blog',
       },
       {
-        text: 'Notes',
+        text: '笔记',
         href: '/blog/notes',
       },
       {
-        text: 'Talks',
+        text: '项目',
         href: '/blog/talks',
       },
     ],

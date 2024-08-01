@@ -55,7 +55,7 @@ function getYear(date: Date | string | number) {
       <a text-lg lh-tight nav-link flex="~ col gap-2" :aria-label="post.data.title" :target="getTarget(post)" :href="getHref(post)">
         <div flex="~ col md:row gap-2 md:items-center">
           <div flex="~ gap-2 items-center text-wrap">
-            <span lh-normal>
+            <span class="border-animation" lh-normal>
               <i v-if="post.data.draft" text-base vertical-mid i-ri-draft-line />
               {{ post.data.title }}
             </span>
@@ -74,3 +74,15 @@ function getYear(date: Date | string | number) {
     </li>
   </ul>
 </template>
+
+<style>
+.border-animation {
+  background: linear-gradient(to right, #333, #999) no-repeat right bottom;
+  background-size: 0 2px;
+  transition: background-size 300ms;
+}
+.border-animation:hover {
+  background-position-x: left;
+  background-size: 100% 2px;
+}
+</style>
